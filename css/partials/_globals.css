@@ -53,3 +53,21 @@ button.primary-button::after, button.secondary-button::after{
     color: whitesmoke;
     box-shadow: var(--box-shadow);
 }
+
+p.para {
+    color: var(--text-color);
+    font: normal 500 16px/25px var(--roboto);
+} 
+
+.font-roboto{
+    font-family: var(--roboto);
+}
+
+button:focus,
+button:active,
+button:hover,
+.btn:active
+.btn.active {
+    outline: 0px !important;
+    box-shadow: none !important;
+}
