@@ -29,11 +29,11 @@ $(document).ready(function(){
             0: {
                 items:1
             },
-            544: {
+            560: {
                 items:2
             }
         }
-    });
+    })
 
     // Sticky Navigation Menu
     let nav_offset_top = $('.header-area').height() + 50;

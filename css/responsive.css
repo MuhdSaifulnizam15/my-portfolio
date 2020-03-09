@@ -3,7 +3,7 @@
     .header-area .main-menu .navbar,
     .header-area .main-menu .navbar .navbar-brand,
     .site-main .subscribe-area .subscribe .subscribe-title,
-    .site-main .subscribe-area .subscribe .subscribe-title p, h4
+    .site-main .subscribe-area .subscribe .subscribe-title p, h4,
     .site-main .service-area,
     .site-main .subscribe-area .subscribe 
     {
@@ -21,6 +21,7 @@
 
     .site-main > .service-area .service {
         width: 13rem;
+        margin-bottom: 1rem;
     }
 }
 
@@ -53,9 +54,13 @@
         padding: 0%;
     }
 
-    .site-main .subscribe-area .subsribe form .input-textbox input{
+    .site-main .subscribe-area .subscribe form .input-textbox input{
         width: 20rem;
         margin: 5%;
+    }
+
+    .site-main > .service-area .service {
+        margin-bottom: 1rem;
     }
 }
 
@@ -75,5 +80,7 @@
         padding: 3% 4%;
     }
 
-
+    .site-main .project-area ..grid .our-project .img img {
+        margin: .5rem;
+    }
 }
